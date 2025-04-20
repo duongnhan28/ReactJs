@@ -1,0 +1,19 @@
+.todo-title {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+.todo-input {
+    text-align: center;
+}
+
+.todo-list {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}

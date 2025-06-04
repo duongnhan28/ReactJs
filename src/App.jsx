@@ -1,8 +1,7 @@
 
-import Input from './component/learn/Input'
-import ToDoList from './component/learn/ToDoList'
+import ParentComponent from './component/learn/ParentComponent';
 import './component/todo/todo.css'
-import Image from './assets/react.svg';
+import React from 'react';
 function App() {
 
   //code here
@@ -18,19 +17,9 @@ function App() {
   }
 
   return (
-    <div className="todo-container">
-      <h1 className="todo-title">ToDo List</h1>
-      <Input
-        addNewTo={addNewTo}
-      />
-      <ToDoList
-        name={hoiDanit}
-        age={age}
-        data={data}
-      />
-      <div className='todo-img'>
-        <img src={Image} />
-      </div>
+    <div >
+
+      <ParentComponent />
     </div>
   )
 }
